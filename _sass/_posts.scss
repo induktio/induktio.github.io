@@ -5,6 +5,7 @@
 
 .page,
 .post {
+  font-size: 15px;
   margin-bottom: 4em;
 
   li + li {
@@ -34,8 +35,8 @@
 
 // Related posts
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;

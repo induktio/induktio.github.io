@@ -1,30 +1,33 @@
 # Permalinks
-permalink:           pretty
+permalink:      pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title:          Random Thoughts
+tagline:        programming & modding
+url:            http://induktio.github.io
+paginate:       1
+baseurl:        ""
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir:     _sass
+  style:        :compressed
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:         Joonas Järvenpää
+  email:        admin@induktio.net
+  url:          http://induktio.github.io
 
 # Custom vars
-version:             2.0.0
+version:
 github:
-  repo:              https://github.com/poole/poole
+  repo:
+      
+analytics_id:   'UA-44227053-1'
+disqus_id:      'induktiomods'
 
 # Gems
 gems:
