@@ -4,7 +4,7 @@ permalink:      pretty
 # Setup
 title:          Random Thoughts
 tagline:        programming & modding
-url:            http://induktio.github.io
+url:            https://induktio.github.io
 paginate:       1
 baseurl:        ""
 
@@ -19,7 +19,7 @@ sass:
 author:
   name:         Joonas Järvenpää
   email:        admin@induktio.net
-  url:          http://induktio.github.io
+  url:          https://induktio.github.io
 
 # Custom vars
 version:
