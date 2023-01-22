@@ -6,7 +6,7 @@ title: Audio File Format Unpacking
 
 A common place to encounter proprietary, undocumented multimedia formats is the data files of various computer games. That was the case with [SWAT 3](https://www.gog.com/game/swat_3_tactical_game_of_the_year_edition) released by Sierra back in 2001.
 
-Over the years, many of the file formats used by the game were reverse engineered, while the custom audio format CMP still remained unknown. Sierra provided a "Compsound" tool to compress WAV files to CMP format, but the reverse was impossible unless playing the sounds in-game. This article aims the describe the process used to reverse engineer the CMP format.
+Over the years, many of the file formats used by the game were reverse engineered, while the custom audio format CMP still remained unknown. Sierra provided a "Compsound" tool to compress WAV files to CMP format, but the reverse was impossible unless playing the sounds in-game. This article aims to describe the process used to reverse engineer the CMP format.
 
 # First impressions
 
@@ -279,11 +279,11 @@ Now we get:
  10496  10490
 ```
 
-That is definitely the compression method. Using this information, the decompression tool can be written relatively simply in Python. It is included below along with the test files. It does work in Git Bash and Linux environments.
+That is definitely the compression method. Using this information, the decompression tool can be written relatively easily in Python 3. It is included below along with the test files. It can be used in Linux or Windows Git Bash environments.
 
 
 ## Download
 
-[CMP decompression tool](/files/cmpreader.7z)
+[CMP decompression tool](https://github.com/induktio/swat3-tools)
 
 
